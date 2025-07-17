@@ -1,0 +1,13 @@
+body {
+    background-image: url("/scor.jpg"); /* Or correct path if stored elsewhere */
+    background-repeat: no-repeat;
+    background-size: cover;         /* Makes sure the image fills the screen */
+    background-position: center;    /* Centers the image */
+    background-attachment: fixed;   /* Keeps image fixed on scroll */
+    height: 100vh;                  /* Full viewport height */
+    margin: 0;                      /* Removes default margin */
+}
+
+*{
+    font-family: system-ui,Roboto;
+}
