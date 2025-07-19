@@ -4,20 +4,21 @@
     width: 100%;             
     z-index: 1000;            
     border: 2px solid white;
-    height: 80px;
+    height: 100px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     padding: 0 40px;
-    background-color: #a9a6a6; 
+    background-color: #111010; 
 }
 
 
 .logo img {
-    height: 50px;
-    width: 100px;
+    height: 80px;
+    width: 110px;
+    margin-left:50px;
 }
 
 .navlink ul {
@@ -37,8 +38,8 @@
 .navlink a {
     text-decoration: none;
     margin-right:90px ;
-    color:black;
-    font-size: 16px;
+    color:rgb(242, 240, 240);
+    font-size: 20px;
     font-weight: 500;
 }
 

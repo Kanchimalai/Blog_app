@@ -14,7 +14,6 @@ const Blogs = () => {
   const router = useRouter();
 return (
   <div className={style.blog}>
-    <h1>Martin Scorsese Masterpieces</h1>
     <div className={style.cardcontainer}>
       {movies.map((movi) => (
         <div className={style.card} key={movi.id}>

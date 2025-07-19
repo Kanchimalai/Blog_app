@@ -7,7 +7,7 @@ const Navbar = ({val}) => {
     return (
         <div className={style.navcontainer}>
             <div className={style.logo}>
-                <img src="/man.png" alt="logo" />
+                <img src="/logoback.jpg" alt="logo" />
             </div>
             <div className={style.navlink}>
                 <ul>

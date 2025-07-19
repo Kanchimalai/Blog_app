@@ -1,21 +1,18 @@
 "use client";
 import { useRouter } from "next/navigation";
 import style from "./Home.module.css";
-import Form from "./form";
 
 const Home = () => {
   const router = useRouter();
 
   return (
     <div className={style.home}>
-      <div>
-      </div>
-
-      <div className={style.main}>
-        <h1>Click the button to Explore</h1>
-        <div className={style.btn}>
-          <button onClick={() => router.push("/userlogin")}>For User</button>
-          <button onClick={() => router.push("/adminlogin")}>For Admin</button>
+      <div className={style.content}>
+        <h1 className={style.title}>Discover the Magic of Cinema</h1>
+      <p className={style.subtitle}>Choose your role to begin your journey</p>
+        <div className={style.buttons}>
+          <button onClick={() => router.push("/userlogin")}>User</button>
+          <button onClick={() => router.push("/adminlogin")}>Admin</button>
         </div>
       </div>
     </div>

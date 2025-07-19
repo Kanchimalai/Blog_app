@@ -1,5 +1,5 @@
 body {
-    background-image: url("/scor.jpg"); /* Or correct path if stored elsewhere */
+    background-image: url("/backg2.jpg"); /* Or correct path if stored elsewhere */
     background-repeat: no-repeat;
     background-size: cover;         /* Makes sure the image fills the screen */
     background-position: center;    /* Centers the image */
